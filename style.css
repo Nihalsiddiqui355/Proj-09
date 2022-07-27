@@ -47,7 +47,7 @@ nav {
   border-radius: 8px;
   display: flex;
   justify-content: center;
-  text-align: center;
+  text-align: center; 
 }
 
 nav>:nth-child(7) {
@@ -154,6 +154,7 @@ p.card-body {
   border-radius: 12px;
   width: 214px;
   height: 270px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* div:nth-child(5):after{
@@ -453,7 +454,6 @@ form>:nth-child(2) {
   display: inline-block;
   position: relative;
   top: -60px;
-  float: right;
 }
 
 .footer-logos {
