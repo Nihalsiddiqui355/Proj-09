@@ -345,6 +345,7 @@ h1>span {
   background-color: #E9EDFF;
   border-radius: 55px;
   height: 8;
+  cursor: pointer;
 }
 
 input {
@@ -380,11 +381,13 @@ form>:nth-child(2) {
   grid-template-columns: 1fr;
   position: relative;
   top: -45px;
+  cursor: pointer;
 }
 
 .footer-logo {
   position: relative;
   left: 60px;
+  cursor: pointer;
 }
 
 .list {
@@ -455,6 +458,7 @@ form>:nth-child(2) {
   position: relative;
   top:65px;
   margin: 0px 25px;
+  cursor: pointer;
 }
 
 .logos-list {
