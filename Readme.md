@@ -3,7 +3,8 @@
 
 - By Nihal Siddiqui
 
-> live priview [Link]https://fullstack-js-project-09.netlify.app/)
+> live priview 
+[Link](https://fullstack-js-project-09.netlify.app/)
 
 > Project Preview
 
