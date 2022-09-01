@@ -62,7 +62,7 @@ nav>:nth-child(7) {
 }
 
 
-@media   screen and (min-width:375px ) and (max-width:767px) {
+@media   screen and (max-width:375px ){
   
   /* body{
     margin: 0 auto;
@@ -127,7 +127,7 @@ body{
     font-size: 20px;
   }
 }
-@media   screen and (min-width:768px) {
+@media   screen and (max-width:768px) {
   .nav-item{
     display: flex;
     margin: 0px 10px;
@@ -192,7 +192,7 @@ body{
 
 }
 
-@media   screen and (min-width:375px ) and (max-width:767px) {
+@media   screen and (max-width:375px ) {
   .companies{
     margin: 0 auto;
     overflow-x: hidden;
@@ -281,7 +281,7 @@ p.card-body {
 }
 
 
-@media   screen and (min-width:375px ) and (max-width:767px) {
+@media   screen and (max-width:375px ) {
   
   .api{
 
@@ -325,14 +325,14 @@ p.card-body {
   height: 4rem;
 }
 
-.blog-heading::after {
+/* .blog-heading::after {
   content: 'See all Article';
   color: #4516FE;
   position: relative;
   left: 90%;
   margin-left: 540px;
   font-weight: 800;
-}
+} */
 
 .blog-cards {
   /* border: 2px solid yellow; */
@@ -404,7 +404,7 @@ div.blog-content {
   width: 190px;
 }
 
-@media   screen and (min-width:375px ) and (max-width:767px) {
+@media   screen and (max-width:375px ){
   .blog-cards{
     height: 800px;
     margin: 0px 0px;
@@ -475,7 +475,7 @@ div.blog-content {
   width: 20px;
 }
 
-@media screen and (min-width:380px) and (max-width: 767px) {
+@media screen and (max-width:380px)  {
   .faq-section{
     margin-right:0px;
     display: grid;
@@ -540,7 +540,7 @@ form>:nth-child(2) {
   cursor: pointer;
 }
 
-@media screen and (min-width: 380px) and (max-width:767px){
+@media screen and (max-width: 380px) {
   .download-section{
     display: grid;
   }
@@ -576,6 +576,7 @@ padding: 0px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 100px;
+  width: fit-content;
 }
 
 /* left part of footer */
@@ -696,7 +697,7 @@ padding: 0px;
 }
 
 
-@media screen and (min-width: 380px) and (max-width : 767px){
+@media screen and (max-width: 380px) {
 
   .logos-list{
     display: grid;
