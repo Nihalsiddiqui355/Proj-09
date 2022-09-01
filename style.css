@@ -62,7 +62,7 @@ nav>:nth-child(7) {
 }
 
 
-@media   screen and (min-width:375px ) and (max-width:767px) {
+@media    (min-width:375px ) and (max-width:767px) {
   
   /* body{
     margin: 0 auto;
@@ -127,7 +127,7 @@ body{
     font-size: 20px;
   }
 }
-@media   screen and (min-width:768px) {
+@media    (min-width:768px) {
   .nav-item{
     display: flex;
     margin: 0px 10px;
@@ -192,7 +192,7 @@ body{
 
 }
 
-@media   screen and (min-width:375px ) and (max-width:767px) {
+@media    (min-width:375px ) and (max-width:767px) {
   .companies{
     margin: 0 auto;
     overflow-x: hidden;
@@ -281,7 +281,7 @@ p.card-body {
 }
 
 
-@media   screen and (min-width:375px ) and (max-width:767px) {
+@media    (min-width:375px ) and (max-width:767px) {
   
   .api{
 
@@ -300,7 +300,7 @@ p.card-body {
   }
 }
 
-@media screen and (max-width:768px) {
+@media  (max-width:768px) {
   /*  */
   .api{
     height: 60rem;
@@ -404,7 +404,7 @@ div.blog-content {
   width: 190px;
 }
 
-@media   screen and (min-width:375px ) and (max-width:767px) {
+@media    (min-width:375px ) and (max-width:767px) {
   .blog-cards{
     height: 800px;
     margin: 0px 0px;
@@ -475,7 +475,7 @@ div.blog-content {
   width: 20px;
 }
 
-@media screen and (min-width:380px) and (max-width: 767px) {
+@media (min-width:380px) and (max-width: 767px) {
   .faq-section{
     margin-right:0px;
     display: grid;
@@ -540,7 +540,7 @@ form>:nth-child(2) {
   cursor: pointer;
 }
 
-@media screen and (min-width: 380px) and (max-width:767px){
+@media (min-width: 380px) and (max-width:767px){
   .download-section{
     display: grid;
   }
@@ -697,7 +697,7 @@ padding: 0px;
 }
 
 
-@media screen and (min-width: 380px) and (max-width : 767px){
+@media  (min-width: 380px) and (max-width : 767px){
 
   .logos-list{
     display: grid;
