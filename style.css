@@ -33,6 +33,7 @@ nav {
 }
 
 .nav-item {
+  display: flex;
   margin: 5px 10px;
   color: white;
   cursor: pointer;
@@ -60,12 +61,104 @@ nav>:nth-child(7) {
   color: white;
 }
 
+
+@media   screen and (min-width:375px ) and (max-width:767px) {
+  
+  /* body{
+    margin: 0 auto;
+  } */
+
+body{
+  overflow-x: hidden;
+}
+  header{
+    width: 608px;
+    height: 400px;
+  }
+  .nav-item{
+    margin: 0 auto;
+    display: none;
+  }
+  .fa-solid.fa-bars{
+    display: flex;
+    color: #fff;
+    margin: 0px 10px;
+    margin-top: 5px;
+    position: relative;
+    left: 30%;
+  }
+  .nav-item.search{
+    margin: 0px 10px;
+    position: relative;
+    left: 20%;
+  }
+  .nav-logo{
+    position: relative;
+    top: 0em ;
+    right: 3.5rem;
+  }
+  .header-image{
+    width:20rem;
+    /* float: right; */
+      position: relative;
+      left: 18rem;
+      top: -4rem;
+      /* background-color: #f8f8f8; */
+    
+  }
+  .nav-item-active{
+    position: relative;
+    cursor: pointer;
+  }
+
+  .header-text{
+    /* background-color: red; */
+    position: relative;
+    top: 30%;
+    left:0rem;
+    width: 50%;
+    
+  }
+  .header-text > p{
+    font-size: 15px;
+  }
+
+  .tex-hero{
+    font-size: 20px;
+  }
+}
+@media   screen and (min-width:768px) {
+  .nav-item{
+    display: flex;
+    margin: 0px 10px;
+  }
+  .fa-solid.fa-bars{
+    display: none;
+  }
+  header{
+    width: 85.5rem;
+   
+  }
+  .header-text{
+    position: relative;
+    left: 60px;
+    top: 20%;
+  }
+  .header-image {
+  position: relative;
+  left: 58%;
+  top: -150px;
+  /* background-color: #f8f8f8; */
+}
+}
 /* _______________end navbar */
 /* ________________logo */
 
 .logo {
-  margin-top: 50px;
-  margin-left: 150px;
+  margin-top: 20px;
+  margin-left: 80px;
+  width: 80px;
+  cursor: pointer;
 }
 
 /* ___________endlogo */
@@ -73,37 +166,42 @@ nav>:nth-child(7) {
 .header-text {
   display: inline-block;
   color: #fff;
-  position: relative;
-  left: 130px;
-  top: 20%;
+ 
   padding: 10px;
   font-size: 20px;
 }
 
-.header-image {
-  position: relative;
-  left: 58%;
-  top: -150px;
-  /* background-color: #f8f8f8; */
-}
+/* Companies */
 
 .companies {
   /* border: 2px solid red; */
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 792px;
-  min-height: 91px;
+  width: 792px;
+  margin: 20px 0px;
   background-color: #F8F8FA;
 }
 
 .company-items {
   text-decoration: none;
-  font-family: Josefin Sans;
+  font-family: "Josefin Sans";
   font-size: 25px;
   font-weight: 900;
   color: #000;
 
+}
+
+@media   screen and (min-width:375px ) and (max-width:767px) {
+  .companies{
+    margin: 0 auto;
+    overflow-x: hidden;
+    margin-top: 30px;
+    width:100%;
+  }
+  .company-items{
+    margin: 0 auto;
+  }
 }
 
 /* _________________ APIs Section */
@@ -175,12 +273,45 @@ p.card-body {
   background-color: #4516FE;
   color: #fff;
   position: relative;
-  top: 110px;
-  left: 975px;
+  left: 1000px;
+  top: 80px;
   padding: 2px 20px;
   border-radius: 45px;
   font-size: 40px;
 }
+
+
+@media   screen and (min-width:375px ) and (max-width:767px) {
+  
+  .api{
+
+    height: 70rem;
+    width: 35rem;
+    margin: 0 auto;
+    display: grid;
+
+  }
+  .card{
+    margin: 40px auto;
+    
+  }
+  .api-heading::after{
+    display: none;
+  }
+}
+
+@media screen and (max-width:768px) {
+  /*  */
+  .api{
+    height: 60rem;
+  }
+  .card{
+    margin: 40px auto;
+    
+  }
+  
+}
+
 
 
 /* ________Blog here */
@@ -191,6 +322,7 @@ p.card-body {
   margin-top: 0px;
   left: 66px;
   top: 8px;
+  height: 4rem;
 }
 
 .blog-heading::after {
@@ -208,8 +340,8 @@ p.card-body {
   justify-content: center;
   flex-direction: row;
   margin: 5px 0px;
-  max-width: auto;
-  max-height: 450px;
+  /* max-width: auto; */
+  height: 450px;
   
 }
 
@@ -272,6 +404,27 @@ div.blog-content {
   width: 190px;
 }
 
+@media   screen and (min-width:375px ) and (max-width:767px) {
+  .blog-cards{
+    height: 800px;
+    margin: 0px 0px;
+    padding: 0px;
+    display: grid;
+
+  }
+  
+  .blog-card{
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 0px 20px 20px 0px;
+  }
+ 
+}
+
+
+/* Blog end here */
+
+/* Faq Section ??????? */
 .faq-section {
   margin-top: 35px;
   /* border: 2px solid rgb(0, 255, 0); */
@@ -322,6 +475,22 @@ div.blog-content {
   width: 20px;
 }
 
+@media screen and (min-width:380px) and (max-width: 767px) {
+  .faq-section{
+    margin-right:0px;
+    display: grid;
+    overflow-x: hidden;
+    width:fit-content
+  }
+  .faq-img{
+    width: 400px;
+    float:left;
+  }
+}  
+
+/* faq End here_______________________________________ */
+
+/* Download section  */
 .download-section {
   /* border: 2px solid royalblue; */
   padding: 15px;
@@ -371,6 +540,35 @@ form>:nth-child(2) {
   cursor: pointer;
 }
 
+@media screen and (min-width: 380px) and (max-width:767px){
+  .download-section{
+    display: grid;
+  }
+
+  .download-email{
+    position: relative;
+    left: 0px;
+  }
+  .download-content{
+    position: relative;
+    left: 0px;
+    padding: 0px;
+  }
+
+  form>:nth-child(2){
+float: right;
+padding: 0px;
+  }
+   
+  input{
+    border: white;
+  background-color: #E9EDFF;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  }
+}
+
 /* ________footer */
 
 .footer-section {
@@ -392,6 +590,7 @@ form>:nth-child(2) {
 
 .footer-logo {
   position: relative;
+  top: -40px;
   left: 60px;
   cursor: pointer;
 }
@@ -448,6 +647,8 @@ form>:nth-child(2) {
   display: flex;
   color: white;
   margin: 0px 10px;
+  position: relative;
+  top: 0px;
 }
 
 /* right part of footer */
@@ -461,7 +662,7 @@ form>:nth-child(2) {
 
 .footer-logos {
   position: relative;
-  top:65px;
+  top:80px;
   margin: 0px 25px;
   cursor: pointer;
 }
@@ -470,7 +671,7 @@ form>:nth-child(2) {
   display: flex;
   justify-content: space-between;
   position: relative;
-  top: 57px;
+  top: -10px;
   left: 435px;
   width: 200px;
 }
@@ -492,4 +693,17 @@ form>:nth-child(2) {
   background-color: rgb(255, 255, 255);
   height: 20px;
   width: 1px;
+}
+
+
+@media screen and (min-width: 380px) and (max-width : 767px){
+
+  .logos-list{
+    display: grid;
+  }
+
+  .footer-right{
+    position: relative;
+    color: white;
+  }
 }
